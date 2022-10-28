@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family:"Overpass" sans-serif;
+    font-size: 15px;
+}
+
+.main-container {
+    display: block;
+    background-color: hsl(213, 19%, 18%);
+    width: 380px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+    border-radius: 10px;
+    padding: 1%;
+    text-align: center;
+}
+.thankyou-container{
+    display: block;
+    background-color: hsl(213, 19%, 18%);
+    width: 380px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+    border-radius: 10px;
+    padding: 1%;
+    text-align: center;
+}
+.thankyou-container p{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+svg{
+    display: block;
+    border: solid 1px black;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    margin-left: 0;
+    background-color: rgb(105, 105, 105);
+}
+p{
+    color:hsl(228, 4%, 74%);
+}
+.attribution{
+    color: white;
+}
+h1{
+    margin-bottom: 1rem;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+li{
+    margin-right: 5%;
+}
+.btn{
+    
+    background-color: rgb(105, 105, 105);
+    border: black 1px solid;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 3px;
+}
+
+.btn:hover{
+    background-color: orange;
+}
+
+button{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60px;
+    background-color: orange;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:focus{
+    background-color: white;
+    color: orange;
+}
+.thankyou-container img {
+    display: block;
+    margin: 0 auto 2rem;
+}
+.hidden {
+    display: none;
+}
